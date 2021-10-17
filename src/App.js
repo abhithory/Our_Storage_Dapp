@@ -9,7 +9,6 @@ import Web3 from 'web3';
 import OurStorageDapp from './abis/OurStorageDapp.json'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
 import "bootstrap-icons/font/bootstrap-icons.css"
 
 import './components/App.css';

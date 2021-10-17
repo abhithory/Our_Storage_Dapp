@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  HashRouter
 } from "react-router-dom";
 
 import Web3 from 'web3';
@@ -189,7 +190,9 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      // <Router>
+
+      <HashRouter>
         <div className="" >
           {this.state.connected
             ?
@@ -218,7 +221,10 @@ class App extends Component {
             <NotConnected />
           }
         </div>
-      </Router>
+
+        {/* </Router> */}
+      </HashRouter>//for github pages
+
     );
   }
 }
